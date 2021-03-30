@@ -46,6 +46,4 @@ message AppendEntriesResponse {
   // current term, for candidate to update it self
   // 当前任期号，领导人更新自己
   uint64 term = 1;
-
-
 }
